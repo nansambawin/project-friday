@@ -1,0 +1,248 @@
+*{
+    margin: 0 auto;
+    background-size: 100% 720px;
+    font-family: 'poppins';
+    box-sizing: border-box;
+}
+body{
+    animation: to 5s linear infinite;
+}
+/*@keyframes to {
+    10%{background-color:goldenrod}
+    30%{background-color: yellow;}
+    60%{background-color: orange;}
+}*/
+main {
+    overflow: auto;
+    padding-bottom: 100px;
+}
+.container {
+    width: 500px;
+    height: 450px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: darkred;
+    border-radius: 04px;
+    margin:0 auto;
+    margin-top:160px;
+    min-height:100%;
+    padding-top: 30px;
+    font-family: 'poppins';
+    box-sizing: border-box;
+}
+.container img {
+    width: 150px;
+    height: 150px;
+    margin-top: -50px;
+    margin-right: 3px;
+    text-align: center;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    display: block;
+    background-color:white;
+}
+.inner_header{
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    background-color:goldenrod;
+    padding-left: 20px;
+}
+.logo_container{
+    height: 100%;
+    display: table;
+    float: left;
+}
+.logo_container h1{
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: monospace;
+    font-size: 32px;
+    font-weight: 200;
+}
+.logo_container h1 span{
+    font-weight: 800;
+}
+.navigation{
+    float: right;
+    height: 100%;
+    line-height: 80px;
+    font-size: 17px;
+}
+.navigation :hover{
+    color:black;
+}
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    padding-bottom: 40px;
+    
+}
+.navigation a:last-child{
+    padding-right: 0;
+}
+.navigation a li{
+    display:table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-family: fantasy;
+    font-size: 16px;
+    line-height: 80px;
+    font-size: 17px;
+    border-radius: 3px;
+    padding-right: 20px;
+    margin: 0 5px;
+    padding: 7px 13px;
+    text-transform: uppercase;
+}
+img{
+    width: 100%;
+    height: 500px;
+    background-color: goldenrod;
+}
+.abt{
+    margin:20px;
+}
+img{
+    text-align: right;
+}
+.h1{
+    text-align:left;
+    margin: 100px;
+    padding-bottom: 30px;
+}
+.p{
+    background-image: url(g4.jpg);
+    height: 50px;
+    width: 500px;
+    margin-bottom: 20px;
+}
+.site-map{
+    align-content: center;
+}
+.footer{
+    height: 80px;
+    width: 100%;
+    background:white;
+    color:black;
+    text-align:left;
+    display: inline;
+}
+.process{
+
+    position: absolute;
+    right: 80px;
+}
+.head{
+    text-align: center;
+    height: 50%;
+    width: 50%;
+    text-size-adjust: 50px;
+}
+.xy{
+    height: 50px;
+}
+.ref{
+    height: 100px;
+    width: 13%;
+    position: absolute;
+    text-align: left;
+    padding-left: -50px;
+}
+.semi{
+    text-align: left;
+    height: 50%;
+    width: 100%;
+    text-size-adjust: 50px;
+}
+.demi{
+    text-align: right;
+    height: 50%;
+    width: 50%;
+    text-size-adjust: 50px;
+}
+.online{
+  text-align: center;
+  height: 50px;
+  width: 100%;
+  writing-mode: horizontal-tb;
+}
+.icon{
+    text-align: left;
+
+}
+.process{
+    border-radius: 50px;
+    background-color: gray;
+    display: inline-block;
+}
+.a{
+    border-radius: 50px;
+    background-color: gray;
+    display: inline-block;
+}
+.blo{
+    text-align:left;
+    padding-right: 50%;
+}
+.link{
+    height: 50px;
+    width: 1000px;
+    border-radius: 50px;
+    display: inline;
+    text-indent: 80px;
+    letter-spacing: 5px;
+    margin: 20px;
+    position: relative;
+}
+.contacts{
+    height: 200px;
+    display: inline-block;
+}
+.box{
+    margin: 20px;
+}
+.sec{
+    margin: 20px;
+}
+.sec.h1{
+    text-align: center;
+}
+.copy{
+    background: goldenrod;
+    height: 50px;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 30px;
+}
+#check{
+    display: none;
+}
+.gold{
+    background: yellow;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+}
+a.active,a:hover{
+    background:yellow;
+    transition: 5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    line-height: 80px;
+    cursor: pointer;
+}
+#check{
+    display: none;
+}
