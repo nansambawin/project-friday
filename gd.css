@@ -42,11 +42,12 @@ main {
     height: 100px;
     display: block;
     background-color:white;
+    display: flex;
 }
 .inner_header{
     width: 1000px;
     height: 100%;
-    display: block;
+    display: flex;
     margin: 0 auto;
     background-color:goldenrod;
     padding-left: 20px;
